@@ -1,0 +1,633 @@
+nav div 
+{
+    background-color: orange;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* BAT DAU CODE */
+.contact-blk-1 {
+    width: 100%;
+    padding: 50px 0 60px;
+    margin-top: 160px;
+}
+
+.contact-blk-1 .inner {
+    height: 460px;
+}
+
+.inner {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.contact-blk-1 .my-map {
+    float: left;
+    width: 55.20833333333333%;
+}
+
+.contact-blk-1 .my-place {
+    float: right;
+    width: 40.625%;
+    height: 100%;
+    position: relative;
+}
+
+.contact-blk-2 {
+    background-color: #f4f4f4;
+}
+
+.contact-blk-2 .wr-blk-2 {
+    padding: 50px 0;
+    background-color: transparent;
+    background-image: url(https://www.circlek.com.vn/wp-content/themes/circlek/images/banner/Contact-Us-0703.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.contact-blk-2 .write-to-me {
+    width: 49.16666666666667%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-blk-2 .write-to-me h3 {
+    font-size: 2.143em;
+    color: #db291d;
+    margin-bottom: 10px;
+}
+
+.contact-blk-2 .write-to-me p {
+    line-height: 24px;
+}
+
+.contact-blk-2 .form-to-me {
+    margin-top: 45px;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+input, textarea, * {
+    outline: none;
+}
+
+.contact-blk-2 .form-to-me .form-each {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #b3b3b3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.contact-blk-2 .form-to-me .form-each.name:before {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+    display: block;
+    content: '';
+    width: 16px;
+    height: 19px;
+    background-color: transparent;
+    background-image: url(https://www.circlek.com.vn/wp-content/themes/circlek/images/icon/store-form-name.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.contact-blk-2 .form-to-me .form-each>span {
+    display: block;
+    height: 100%;
+}
+
+.contact-blk-2 .form-to-me .form-each .field {
+    width: 100%;
+    height: 100%;
+    padding-left: 43px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    font-size: .99714em;
+    color: #000;
+}
+
+.contact-blk-2 .form-to-me .form-each.name>span>span, .contact-blk-2 .form-to-me .form-each.phone>span>span, .contact-blk-2 .form-to-me .form-each.email>span>span {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    background-image: url(https://www.circlek.com.vn/wp-content/themes/circlek/images/icon/remove.png);
+    cursor: pointer;
+}
+
+.contact-blk-2 .form-to-me .form-each.email:before {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    z-index: 1;
+    display: block;
+    content: '';
+    width: 17px;
+    height: 12px;
+    background-color: transparent;
+    background-image: url(https://www.circlek.com.vn/wp-content/themes/circlek/images/icon/store-form-letter.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.contact-blk-2 .form-to-me .form-each.phone:before {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    z-index: 1;
+    display: block;
+    content: '';
+    width: 20px;
+    height: 13px;
+    background-color: transparent;
+    background-image: url(https://www.circlek.com.vn/wp-content/themes/circlek/images/icon/store-form-phone.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.contact-blk-2 .form-to-me .form-each.cho-upl {
+    border: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+    border-radius: none;
+}
+
+.contact-blk-2 .form-to-me .form-each.cho-upl .f-cho, .contact-blk-2 .form-to-me .form-each.cho-upl .f-upl, .contact-blk-2 #popup-apply .form-to-me .form-each.cho-upl .f-upl, #popup-apply .contact-blk-2 .form-to-me .form-each.cho-upl .f-upl, .contact-blk-2 #popup-download .form-to-me .form-each.cho-upl .f-upl, #popup-download .contact-blk-2 .form-to-me .form-each.cho-upl .f-upl {
+    float: left;
+    width: 47.87234042553191%;
+    height: 100%;
+    text-align: left;
+}
+
+.contact-blk-2 .form-to-me .form-each.cho-upl .f-upl {
+    float: right;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #b3b3b3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.contact-blk-2 .form-to-me .form-each.cho-upl .f-upl span.txt_file_label {
+    float: left;
+    display: block;
+    width: 55.30973451327434%;
+    height: 100%;
+    margin: 0 0 0 16px;
+    padding-top: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    font-size: .99714em;
+    color: #b3b3b3;
+    text-align: left;
+}
+
+.contact-blk-2 .form-to-me .form-each.cho-upl .f-upl br {
+    display: none;
+}
+
+.contact-blk-2 .form-to-me .form-each.cho-upl .f-upl a.txt_file_mask {
+    float: right;
+    display: block;
+    width: 69px;
+    height: 31px;
+    padding: 8px 0 0 5px;
+    margin: 9px 6px 0 0;
+    border: 1px solid #9b9b9b;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #cdcdcd;
+    font-size: .99714em;
+}
+
+.contact-blk-2 .form-to-me .form-each.cho-upl .f-upl span.txt_file {
+    visibility: hidden;
+    position: absolute;
+    top: 50px;
+}
+
+.contact-blk-2 .form-to-me .form-each.ur {
+    height: 157px;
+}
+
+.contact-blk-2 .form-to-me .form-each.ur:before {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+    z-index: 1;
+    display: block;
+    content: '';
+    width: 17px;
+    height: 17px;
+    background-color: transparent;
+    background-image: url(https://www.circlek.com.vn/wp-content/themes/circlek/images/icon/store-form-write.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.contact-blk-2 .form-to-me .form-each.ur .field {
+    padding-top: 19px;
+    resize: none;
+}
+
+.contact-blk-2 .form-to-me .form-each.au {
+    height: auto;
+    margin-bottom: 0;
+    border: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+    border-radius: none;
+}
+
+.contact-blk-2 .form-to-me .form-each.au .txt_recaptcha {
+    float: left;
+}
+
+.contact-blk-2 .write-to-me p {
+    line-height: 24px;
+}
+
+@media only screen and (min-width: 979px) {
+    .contact-blk-2 .form-to-me .form-each.au .txt_send {
+        height: 44px;
+        padding: 0 45px 0 46px;
+        margin-top: 15px;
+    }
+}
+
+.contact-blk-2 .form-to-me .form-each.au .txt_send {
+    display: inline-block;
+    height: 33px;
+    padding: 0 33px 0;
+    margin-top: 22px;
+    border: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #db291d;
+    font-size: 1em;
+    color: #fff;
+}
+
+.foot-lv1 {
+    height: 100px;
+    background-color: #db291d;
+}
+
+.foot-lv1 .inner {
+    height: 100%;
+}
+
+.sign-letter {
+    float: left;
+    height: 100px;
+}
+
+.sign-letter .wr {
+    width: 62px;
+}
+
+.sign-letter .wr img {
+    display: block;
+    width: 100%;
+}
+
+.sign-letter .txt-para {
+    float: left;
+    height: 100%;
+    width: 480px;
+    margin-left: 15px;
+}
+
+
+.sign-letter .txt-para p.t-xl {
+    float: left;
+    margin-top: 22px;
+    font-size: 1.714em;
+    color: #fff;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.sign-letter .txt-para p.t-xxl {
+    float: right;
+    margin-top: 29px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 19px;
+    text-align: right;
+}
+
+.text-mail {
+    float: right;
+    height: 100%;
+}
+
+.text {
+    display: none;
+    float: left;
+    height: 100%;
+    margin-right: 11px;
+}
+
+.text .wr {
+    text-align: right;
+}
+
+.text p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.your-email {
+    float: right;
+    position: relative;
+    width: 390px;
+    margin-top: 29px;
+}
+
+.your-email input[type="text"] {
+    width: 100%;
+    height: 42px;
+    padding: 0 16px;
+    border: 1px solid #d3d3d3;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #000;
+}
+
+.your-email input[type="text"] {
+    -webkit-appearance: none;
+    -khtml-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+.your-email .button-kind-4.add-on-3 {
+    height: 42px;
+}
+
+.button-kind-4.add-on-3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: none;
+    background-color: #b70e11;
+    border: 1px solid #b70e11;
+}
+
+.button-kind-4 {
+    border: 1px solid #b9b9b9;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    background-color: transparent;
+}
+
+.button-kind-2, .button-kind-4 {
+    border: 1px solid #db291d;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    background-color: transparent;
+    height: 38px;
+}
+
+.button-kind-1, .button-kind-2, .button-kind-4, .button-kind-3 {
+    position: relative;
+    height: 33px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #fff;
+    -webkit-transition: all .3s ease-out;
+    -khtml-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.button-kind-4.add-on-3 a {
+    padding: 0 32px 0 37px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: none;
+}
+
+.button-kind-4 a {
+    letter-spacing: 2px;
+    color: #b9b9b9;
+}
+
+.button-kind-2 a, .button-kind-4 a {
+    padding: 0 45px 0 22px;
+    letter-spacing: 1.2px;
+}
+
+.button-kind-1 a, .button-kind-2 a, .button-kind-4 a, .button-kind-3 a {
+    vertical-align: midle;
+    padding: 0 11px 0 16px;
+    font-size: .857em;
+    color: #db291d;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.button-kind-1 a, .button-kind-2 a, .button-kind-4 a, .button-kind-3 a, .sel-drop .sbOptions li a, .sele-box .sele-box-option li a, .search a, .nav-lv1 li a, .nav-lv2 li a, .nav-lv2 .sub-menu li a, .head-tl .nav-tl .gps a, .head-tl .nav-tl .search-tl a, .head-tl .nav-tl .menu-tl-button a, .head-tl .nav-tl .lang-tl a, .block-1 .tab li a, .block-1 .find-map .ur-locate .wr-, .social-toolbox .dltbc, .banner-contact .inner>div div, .banner-store .inner>div div, .store-blk-1 .using-locate .wr-, .store-blk-2 .my-place .result p, .sp-offers-page.sp-offers-detail-page .offer-all .zoom-ico span, .news-events-page .top-item .im, .news-events-page .top-item .dt, .pagin a.abc span.tbc, .pagin span.tb span.tbc, .vertical-list .item .dltbc, .about-us-page .wr-year .item .circlee p, .career-page .banner .inner>div div, .recruiment-page .banner .inner>div div, .recruiment-page-detail .banner .inner>div div, .sign-letter .wr, .text .wr {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.button-kind-1 a, .button-kind-2 a, .button-kind-4 a, .button-kind-3 a {
+    font-family: "Roboto Condensed", arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.your-email .message {
+    margin-top: 7px;
+    text-align: right;
+    font-size: 14px;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+header {
+    position: fixed;  
+    top: 0;  
+    left: 0;
+    right: 0;
+    background-color: white;  
+    padding: 10px 0;  
+}
+
+header ul {
+    justify-content: flex-end; 
+    padding-right: 20px;
+}
+
+header ul li {
+    font-size: 12px;
+    margin-left: 2px; 
+}
+
+nav {
+    position: fixed; 
+    top: 40px;  
+    left: 0;
+    right: 0;
+    z-index: 999;  
+    background-color: orange;
+    transition: top 0.2s ease;
+}
+
+
+nav div{
+    background-color: red;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+nav div div:nth-child(2){   
+    position: relative;
+}
+nav div div:nth-child(2) input {
+        width: 100%;
+        padding: 10px 40px 10px 10px; 
+        font-size: 15px;
+        border-radius: 10px;
+    }
+nav div div:nth-child(2) i {
+        position: absolute;
+        font-size: 25px;
+        right: 20px;
+        color: #888; 
+        line-height: 45px;
+        cursor: pointer;
+}
+
+.menu {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 250px;
+    position:absolute;
+    display: none;
+    box-shadow: 2px 3px 5px red;
+}
+
+.menu > li > a {
+    display: block;  
+    line-height: 20px;  
+    font-variant: small-caps;  
+    padding: 10px 15px;  
+    color: red;  
+    text-decoration: none;  
+}
+
+.menu > li > a:hover {
+    color: black; 
+    font-weight: bold;  
+}
+nav div div:hover .menu {
+    display: block;  
+}
+
+.menu1 a {
+    text-decoration: none; 
+    color: white;  
+}
+.menu1 a:hover{
+    color: white;  
+}
+.box { 
+    background-color: red;
+    text-align: center;
+    padding:3px;
+}
+
+footer{
+    width: 1000px;
+    margin: auto;
+}
+.box1 a{
+    text-decoration: none;
+    padding: 3px ;
+    color: black;
+}
+.box2{
+        
+    font-size: 15px;
+    display: flex;
+}
+.box3{
+    margin-left:  100px; 
+}  
+footer div.row a{
+    text-decoration: none;
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}

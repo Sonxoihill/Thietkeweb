@@ -1,0 +1,301 @@
+nav div 
+{
+    background-color: orange;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.quick-shopping-section 
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.overlay {
+    padding: 20px;
+}
+
+.title 
+{
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+    color: red; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.description 
+{
+    font-size: 18px;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    color: black; 
+}
+
+
+.quick-shopping-section 
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.background-image
+{
+    position: relative;
+    left: 450px;
+    top: 0;
+    margin-top: 10px;
+    object-fit: cover;
+    filter: brightness(70%);
+    display: block;
+}
+
+
+
+.title-2 
+{
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.description-2 
+{
+    min-height: 100px;
+    padding: 0;
+    font-size: 1.14286em;
+    line-height: 21px;
+}
+
+.explore-button 
+{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #ff5c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.explore-button:hover {
+    background-color: #e04e00;
+}
+
+
+
+
+.container 
+{
+    display: flex;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left, .right 
+{
+    flex: 1;
+    padding: 20px;
+}
+
+.left img, .right img 
+{
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+
+.btn-explore 
+{
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #c41230;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.4s ease;
+}
+
+.btn-explore:hover {
+    background-color: #e6002d;
+}
+
+.btn-explore::before 
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: width 0.4s ease, height 0.4s ease, top 0.4s ease, left 0.4s ease;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-explore:hover::before 
+{
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px 0;
+}
+
+header ul {
+    justify-content: flex-end; 
+    padding-right: 20px;
+}
+
+header ul li {
+    font-size: 12px;
+    margin-left: 2px; 
+}
+
+nav {
+    position: fixed; 
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: orange;
+    transition: top 0.2s ease;
+}
+
+
+nav div{
+    background-color: red;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+nav div div:nth-child(2){   
+    position: relative;
+}
+nav div div:nth-child(2) input {
+        width: 100%;
+        padding: 10px 40px 10px 10px; 
+        font-size: 15px;
+        border-radius: 10px;
+    }
+nav div div:nth-child(2) i {
+        position: absolute;
+        font-size: 25px;
+        right: 20px;
+        color: #888; 
+        line-height: 45px;
+        cursor: pointer;
+}
+
+.menu {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 250px;
+    position:absolute;
+    display: none;
+    box-shadow: 2px 3px 5px red;
+}
+
+.menu > li > a {
+    display: block;
+    line-height: 20px;
+    font-variant: small-caps;
+    padding: 10px 15px;
+    color: red;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    color: black;
+    font-weight: bold;
+}
+nav div div:hover .menu {
+    display: block;
+}
+
+
+
+.menu1 a {
+    text-decoration: none; 
+    color: white;  
+}
+.menu1 a:hover {
+    color: white;  
+}
+.box { 
+    background-color: red;
+    text-align: center;
+    padding:3px;
+    margin-top: 50px;
+}
+
+footer{
+    width: 1000px;
+    margin: auto;
+}
+.box1 a{
+    text-decoration: none;
+    padding: 3px ;
+    color: black;
+}
+.box2{
+        
+    font-size: 15px;
+    display: flex;
+}
+.box3{
+    margin-left:  100px; 
+}  
+footer div.row a{
+    text-decoration: none;
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}

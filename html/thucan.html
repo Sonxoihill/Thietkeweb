@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+    <link rel="stylesheet" href="../css/thucan.css"> 
+    <link rel="shortcut icon" href="../image/logo.png" type="image/x-icon"/>
+    <title>THUC AN</title>
+</head>
+<body>
+    <header>
+        <ul class="box2">
+            <li><a href="../html/gioithieu.html">Giới Thiệu |</a></li>   
+            <li><a href="../html/cohoinghenghiep.html">Cơ Hội Nghề Nghiệp |</a></li>
+            <li><a href="../html/tintuc&sukien.html">Tin Tức & Sự Kiện |</a></li>
+            <li><a href="../html/lienhe.html">Liên Hệ |</a></li>
+            <li><a href="../html/chinhsachbaomat.html">Chính Sách Bảo Mật |</a></li>        
+            <li><a href="../html/hoadondo.html">Hóa Đơn Đỏ </a></li>
+        </ul> 
+      </header>
+      <nav>
+          <div class="row">    
+              <div class="col-sm-1 p-3"><a href="../trangchu.html"><img style="width: 90px;" src="../image/logo.png" alt=""></a></div> 
+              <div class="col-sm-3 p-3"><input type="text"  placeholder="Tìm kiếm...."><i class='bx bx-search'></i></div> 
+              <div class="col-sm-2 p-3"><a href="../html/hethong.html"><i class='bx bx-store'></i>Hệ Thống S Mart</a></div>
+              <div class="col-sm-1 p-3"><a href="../html/uudai.html"><i class='bx bx-gift'></i>Ưu Đãi</a></div>
+              <div class="col-sm-2 p-3">
+                <a href="../html/thucan&thucuong.html"><i class='bx bx-dish'></i>Thức Ăn & Thức Uống</a>
+                <ul class="menu">
+                    <li><a href="../html/thucan.html">Thức ăn</a></li>
+                    <li><a href="../html/douong.html">Thức uống</a></li>
+                </ul>
+            </div>
+              <div class="col-sm-2 p-3">
+              <a href="../html/sanphamdichvu.html"><i class='bx bx-add-to-queue'></i>Sản Phẩm & Dịch Vụ</a>
+              <ul class="menu">
+                <li><a href="../html/sanpham.html">Sản Phẩm</a></li>
+                <li><a href="../html/dichvu.html">Dịch Vụ</a></li>
+            </ul>
+            </div>
+          </div>
+      </nav>
+    <section class="banner">
+        <img src="../image/nenthucan.webp" alt="Thực phẩm S Mart">
+        <div class="banner-text">
+        </div>
+    </section>
+
+    <!-- Danh mục thức ăn -->
+    <section class="category">
+        <h2>Danh Mục Sản Phẩm</h2>
+        <div class="category-list">
+             <div class="category-item" data-category="all">
+                <p>Tất Cả Thức Ăn</p>
+            </div>
+            <div class="category-item" data-category="Thức ăn đóng hộp">
+                <p>Thức ăn đóng hộp</p>
+            </div>
+            <div class="category-item" data-category="Mì">
+                <p>Mì</p>
+            </div>
+            <div class="category-item" data-category="Bánh Mì">
+                <p>Bánh Mì</p>
+            </div>
+            <div class="category-item" data-category="Xúc xích nướng">
+                <p>Xúc xích nướng</p>
+            </div>
+            <div class="category-item" data-category="Bánh bao/Bánh giò">
+                <p>Bánh bao/Bánh giò</p>
+            </div>
+            <div class="category-item" data-category="Tráng miệng">
+                <p>Tráng miệng</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Các sản phẩm nổi bật -->
+    <section class="featured-products">
+        <h2>Sản Phẩm Nổi Bật</h2>
+        <div class="product-list">
+            <div class="product-item" data-category="Mì" onclick="toggleDescription(this)">
+                <img src="../image/mitronxx.webp" alt="Mì Xúc Xích Trứng">
+                <h3>Mì Xúc Xích Trứng</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Mì Trộn Xúc Xích Trứng Chiên:</span> Mì Trộn thoạt nhìn có vẻ đơn giản nhưng lại mang một hương vị đặc trưng riêng. Một tô Mì Trộn hấp dẫn với giá cả rất phải chăng, thêm một chút giá, một chút hẹ, có thể dùng thêm sa tế cay cũng làm ấm lòng bạn vào bất kì giờ nào trong ngày. Sẽ tuyệt hơn nếu bạn kết hợp dùng Mì Trộn với một phần trứng chiên và xúc xích nướng để làm tăng hương vị món ăn.</p>
+            </div>
+            <div class="product-item" data-category="Bánh bao/Bánh giò" onclick="toggleDescription(this)">
+                <img src="../image/banhbao.webp" alt="Bánh bao trứng cút">
+                <h3>Bánh bao trứng cút</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Bánh Bao Trứng Cút:</span> Bánh Bao Trứng Cút có nhân được làm từ thịt heo, củ hành, trứng cút, và nấm. Sản phẩm luôn được giữ nóng trong tủ hâm riêng cho Bánh Bao, luôn được đảm bảo là bánh mới, chất lượng và an toàn để phục vụ bạn bất cứ lúc nào trong ngày.</p>
+            </div>
+            <div class="product-item" data-category="Bánh bao/Bánh giò" onclick="toggleDescription(this)">
+                <img src="../image/xoilachuoi.webp" alt="Xôi Lá Chuối">
+                <h3>Xôi Lá Chuối</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Xôi Lá Chuối:</span> Xôi lá chuối, món ăn dân dã của người Việt giờ đây đã sẵn sàng được phục vụ ở cửa hàng tiện lợi S Mart. Phần xôi mềm dẻo được bọc trong lớp lá chuối tươi được hấp chín kỹ. Nhân xôi đủ đầy với thịt gà xé dai dai, nấm đông cô lạ miệng cùng trứng muối  và tôm khô mằn mặn. Tất cả hòa quyện, tạo nên hương vị đặc trưng và thơm ngon. </p>
+            </div>
+            <div class="product-item" data-category="Bánh Mì" onclick="toggleDescription(this)">
+                <img src="../image/banhmiopla.webp" alt="Bánh Mì Ốp La">
+                <h3>Bánh Mì Ốp La</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Bánh Mì Ốp La:</span> Bánh mì ốp la là món ăn quen thuộc với hầu hết người Việt Nam bởi nó không chỉ ngon mà còn cung cấp đủ năng lượng để khởi đầu ngày mới.</p>
+            </div>
+            <div class="product-item" data-category="Mì" onclick="toggleDescription(this)">
+                <img src="../image/idomie.webp" alt="Mì Trộn Indomie">
+                <h3>Mì Trộn Indomie</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Mì Trộn Indomie:</span> Nguyên liệu đơn giản, hương vị đậm đà, hấp dẫn, đó chính là lý do mì trộn Indomie nhiều năm liền đứng trong top 10 món mì được ưa chuộng nhất thế giới.</p>
+            </div>
+            <div class="product-item" data-category="Mì" onclick="toggleDescription(this)">
+                <img src="../image/mitron.webp" alt="Mì Trộn">
+                <h3>Mì Trộn</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Mì Trộn:</span> Mì Trộn thoạt nhìn có vẻ đơn giản nhưng lại mang một hương vị đặc trưng riêng. Một tô Mì Trộn hấp dẫn với giá cả rất phải chăng, thêm một chút giá, một chút hẹ, có thể dùng thêm sa tế cay cũng làm ấm lòng bạn vào bất kì giờ nào trong ngày.</p>
+            </div>
+            <div class="product-item" data-category="Bánh bao/Bánh giò" onclick="toggleDescription(this)">
+                <img src="../image/banhgio.webp" alt="Bánh Giò">
+                <h3>Bánh Giò</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Bánh giò:</span> Bánh Giò được làm từ bột gạo tẻ với nhân làm từ thịt nạc kèm mộc nhĩ và hành khô. Món ăn thuần Việt này đã xuất hiện tại S mart với phong cách phục vụ nhanh chóng, sạch sẽ, bánh nóng vừa ăn, luôn đảm bảo sự ngon miệng cho bạn.</p>
+            </div>
+            <div class="product-item" data-category="Bánh bao/Bánh giò" onclick="toggleDescription(this)">
+                <img src="../image/trungmuoi.webp" alt="Bánh Bao Trứng Cút & Trứng Muối">
+                <h3>Bánh Bao Trứng Cút & Trứng Muối</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Bánh Bao Trứng Cút & Trứng Muối:</span> Bánh Bao Trứng Muối & Trứng Cút có nhân được làm từ thịt heo, củ hành, lòng đỏ trứng muối, và nấm. Sản phẩm luôn được giữ nóng trong tủ hâm riêng cho Bánh Bao, luôn được đảm bảo là bánh mới, chất lượng và an toàn để phục vụ bạn bất cứ lúc nào trong ngày.</p>
+            </div>
+            <div class="product-item" data-category="Bánh bao/Bánh giò" onclick="toggleDescription(this)">
+                <img src="../image/banhbaocade.webp" alt="Bánh Bao Ca Dé">
+                <h3>Bánh Bao Ca Dé</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Bánh Bao Ca Dé:</span> Bánh Bao Ca Dé và Bánh Bao Khoai Môn, có nhân làm từ đậu xanh và khoai môn là hai lựa chọn thơm ngon cho bạn bên cạnh Bánh Bao truyền thống. Bánh Bao tại S Mart luôn nóng hổi để phục vụ bạn bất cứ lúc nào trong ngày.</p>
+            </div>
+            <div class="product-item" data-category="Bánh bao/Bánh giò" onclick="toggleDescription(this)">
+                <img src="../image/khoaimon.webp" alt="Bánh Bao Khoai Môn">
+                <h3>Bánh Bao Khoai Môn</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Bánh Bao Khoai Môn:</span> Bánh Bao Ca Dé và Bánh Bao Khoai Môn, có nhân làm từ đậu xanh và khoai môn là hai lựa chọn thơm ngon cho bạn bên cạnh Bánh Bao truyền thống. Bánh Bao tại S Mart luôn nóng hổi để phục vụ bạn bất cứ lúc nào trong ngày.</p>
+            </div>
+            <div class="product-item" data-category="Xúc xích nướng" onclick="toggleDescription(this)">
+                <img src="../image/xxcay.webp" alt="Xúc Xích(Cay/Phô Mai/Heo/Xông Khói)">
+                <h3>Xúc Xích(Cay/Phô Mai/Heo/Xông Khói)</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Xúc Xích(Cay/Phô Mai/Heo/Xông Khói):</span> Xúc Xích tại S mart sử dụng nguồn nguyên liệu từ các nhà cung cấp uy tín trong nước và ngoài nước. Xúc Xích với lõi béo mềm bên trong, được bao bọc bên ngoài bởi một lớp bì giòn dai, chắc chắn sẽ là sự lựa chọn hoàn hảo để xoa dịu cơn đói của bạn.</p>
+            </div>
+            <div class="product-item" data-category="Tráng miệng" onclick="toggleDescription(this)">
+                <img src="../image/chuoi.webp" alt="Chuối">
+                <h3>Chuối</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Chuối:</span> Trái cây luôn mang lại nguồn chất xơ, vitamin và khoáng chất tự nhiên dồi dào cho cơ thể. S Mart có đa dạng các loại trái cây vô cùng an toàn và tiện lợi như: táo, lê, quýt, dừa, chuối …</p>
+            </div>
+            <div class="product-item" data-category="Tráng miệng" onclick="toggleDescription(this)">
+                <img src="../image/dua.webp" alt="Dừa">
+                <h3>Dừa</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Dừa:</span> Trái cây luôn mang lại nguồn chất xơ, vitamin và khoáng chất tự nhiên dồi dào cho cơ thể. S Mart có đa dạng các loại trái cây vô cùng an toàn và tiện lợi như: táo, lê, quýt, dừa, chuối …</p>
+            </div>
+            <div class="product-item" data-category="Thức ăn đóng hộp" onclick="toggleDescription(this)">
+                <img src="../image/teriyaki.webp" alt="Đùi Gà Nướng Vị Teriyaki">
+                <h3>Đùi Gà Nướng Vị Teriyaki</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Đùi Gà Nướng Vị Teriyaki:</span> Đùi gà nướng vị Teriyaki mang một hương vị rất đặc biệt, với nước sốt đậm đà và hấp dẫn. Món ăn được chế biến sẵn và đóng gói trong bao bì hút chân không đảm bảo vệ sinh an toàn thực phẩm, thuận tiện cho việc sử dụng ngay tại cửa hàng.</p>
+            </div>
+            <div class="product-item" data-category="Thức ăn đóng hộp" onclick="toggleDescription(this)">
+                <img src="../image/duicay.webp" alt="Đùi Gà Nướng Vị Cay">
+                <h3>Đùi Gà Nướng Vị Cay</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Đùi Gà Nướng Vị Cay:</span> Đùi gà nướng vị cay tại S mart được tẩm ướp bằng những gia vị đậm đà, với vị cay vô cùng hấp dẫn. Món ăn được chế biến sẵn và đóng gói trong bao bì hút chân không đảm bảo vệ sinh an toàn thực phẩm, đựng trong hộp nhựa để có thể thuận tiện quay nóng nước khi sử dụng.</p>
+            </div>
+        </div>
+    </section>
+    <section class="explore-more">
+        <h2>KHÁM PHÁ THÊM</h2>
+        <div class="explore-container">
+            <div class="explore-item explore-uu-dai">
+                <img src="../image/uudai.webp" alt="Ưu Đãi">
+                <h3>Ưu Đãi</h3>
+                <p>S Mart luôn mang đến cho bạn những chương trình ưu đãi mới, đặc biệt, hấp dẫn và thú vị, từ các Chương Trình Khuyến Mãi Tháng, Giá Rẻ Mỗi Ngày đến các combo ăn uống mà bạn không thể bỏ qua.</p>
+                <a href="../html/uudai.html" class="explore-btn">KHÁM PHÁ THÊM <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+            <div class="explore-item explore-san-pham">
+                <img src="../image/sanphamdichvu.webp" alt="Sản Phẩm & Dịch Vụ">
+                <h3>SẢN PHẨM & DỊCH VỤ</h3>
+                <p>Cảm nhận sự tiện lợi và chất lượng về dịch vụ. Trải nghiệm sự phong phú về sản phẩm và dịch vụ khi mua sắm tại S Mart.</p>
+                <a href="../html/sanphamdichvu.html" class="explore-btn">KHÁM PHÁ NGAY <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="box">
+        <div>
+            <div><h2>ĐĂNG KÝ NHẬN THÔNG TIN</h2></div>
+            <div><input type="email" placeholder="Email">
+              <button type="submit">Gửi</button></div>
+          </ul>          
+        </div>
+    </section>
+    <br>
+    <footer>
+        <div class="row-box1" >    
+            <div class="col-sm-2 p-3"><a href="../trangchu.html"><img style="width: 80px;" src="../image/logo.png" alt=""></a></div>   
+        <div class="col-sm-2 p-3"><a href="../html/hethong.html">HỆ THỐNG SMart</a></div>
+        <div class="col-sm-2 p-3"><a href="../html/uudai.html">ƯU ĐÃI ĐẶC BIỆT</a></div>
+        <div class="col-sm-2 p-3"><a href="../html/thucan&thucuong.html">THỨC ĂN & THỨC UỐNG</a></div>
+        <div class="col-sm-2 p-3"><a href="../html/sanphamdichvu.html">SẢN PHẨM & DỊCH VỤ</a></a></div>
+        </div>
+        <hr>
+        <ul class="box2">
+            <li><a href="../html/gioithieu.html">Giới Thiệu |</a></li>   
+    <li><a href="../html/cohoinghenghiep.html">Cơ Hội Nghề Nghiệp |</a></li>
+    <li><a href="../html/tintuc&sukien.html">Tin Tức & Sự Kiện |</a></li>
+    <li><a href="../html/lienhe.html">Liên Hệ |</a></li>
+    <li><a href="../html/chinhsachbaomat.html">Chính Sách Bảo Mật |</a></li>        
+    <li><a href="../html/hoadondo.html">Hóa Đơn Đỏ </a></li>
+        </ul>    
+        <hr>
+    <div class="box3">
+        <div class="contact-info">
+            <p>SMART Vietnam - Chuỗi siêu thị mini - Mở cửa 24/7</p>
+            <p>Tel: +84 999.999.999</p>
+            <p>Phòng Chăm sóc khách hàng: 1900.1588</p>
+            <p>Email: smart.com.vn</p>
+        </div>
+        <div class="box4">
+            <p>CÔNG TY TNHH VÒNG TRÒN ĐỎ - Giấy CNĐKDN: 0306182043</p>
+            <p>Ngày cấp: 07/08/2005. Nơi cấp: Sở Kế Hoạch - Đầu Tư Tp. Hà Nội</p>
+            <p>Địa chỉ: Số 3 Phố Cầu Giấy, Phường Láng Thượng, Quận Đống Đa, Thành Phố Hà Nội.</p>
+        </div>
+    </div>
+    </footer>
+
+    
+    <script src="../javascript/thucan.js"></script>
+</body>
+</html>

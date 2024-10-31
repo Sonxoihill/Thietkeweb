@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../css/hethong.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="../image/logo.png" type="image/x-icon"/>
+    <title>HE THONG</title>
+</head>
+<body>
+    <header>
+        <ul class="box2">
+            <li><a href="../html/gioithieu.html">Giới Thiệu |</a></li>   
+            <li><a href="../html/cohoinghenghiep.html">Cơ Hội Nghề Nghiệp |</a></li>
+            <li><a href="../html/tintuc&sukien.html">Tin Tức & Sự Kiện |</a></li>
+            <li><a href="../html/lienhe.html">Liên Hệ |</a></li>
+            <li><a href="../html/chinhsachbaomat.html">Chính Sách Bảo Mật |</a></li>        
+            <li><a href="../html/hoadondo.html">Hóa Đơn Đỏ </a></li>
+        </ul> 
+      </header>
+      <nav>
+          <div class="row">    
+              <div class="col-sm-1 p-3"><a href="../trangchu.html"><img style="width: 90px;" src="../image/logo.png" alt=""></a></div> 
+              <div class="col-sm-3 p-3"><input type="text"  placeholder="Tìm kiếm...."><i class='bx bx-search'></i></div> 
+              <div class="col-sm-2 p-3"><a href="../html/hethong.html"><i class='bx bx-store'></i>Hệ Thống S Mart</a></div>
+              <div class="col-sm-1 p-3"><a href="../html/uudai.html"><i class='bx bx-gift'></i>Ưu Đãi</a></div>
+              <div class="col-sm-2 p-3">
+                <a href="../html/thucan&thucuong.html"><i class='bx bx-dish'></i>Thức Ăn & Thức Uống</a>
+                <ul class="menu">
+                    <li><a href="../html/thucan.html">Thức ăn</a></li>
+                    <li><a href="../html/douong.html">Thức uống</a></li>
+                </ul>
+            </div>
+              <div class="col-sm-2 p-3">
+              <a href="../html/sanphamdichvu.html"><i class='bx bx-add-to-queue'></i>Sản Phẩm & Dịch Vụ</a>
+              <ul class="menu">
+                <li><a href="../html/sanpham.html">Sản Phẩm</a></li>
+                <li><a href="../html/dichvu.html">Dịch Vụ</a></li>
+            </ul>
+            </div>
+          </div>
+      </nav>
+
+    <div class="store-page">
+        
+        <div class="banner-store" style="background-image:url(../image/Vietnam-Map_1920x350.png)">
+            <div class="inner2">
+                <div>
+                    <div>
+                        <h3>Tìm cửa hàng SMART</h3>
+                        <h3>Gần nhất</h3>
+                        <p>Với hơn 450 cửa hàng tại Tp.Hồ Chí Minh, Hà Nội, Vũng Tàu, Dĩ An, Long Khánh, Biên Hòa, Thủ Dầu Một, Long Xuyên, Mỹ Tho, Cần Thơ, Hưng Yên, Bắc Ninh, Hạ Long, Hải Phòng, Nha Trang. Bạn sẽ luôn dễ dàng tìm được cửa hàng S&nbsp;Mart gần nhất.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="store-blk-1">
+            <div class="inner clearfix">
+                <div class="find clearfix">
+                    <input type="hidden" name="returnDis" id="returnDis" value=""/>
+                    <div class="row1">
+                        <div class="sel-dropcity">
+                            <select id="drop-city-home" class="ajax_click_city">
+                                <option data-id="0" value="">Tỉnh thành</option>
+                                <option <a data-vi="Nha Trang" value="181778">Nha Trang</option>
+                                <option <a data-vi="Đồng Nai" value="181449">Đồng Nai</option>
+                                <option <a data-vi="Kiên Giang" value="181426">Kiên Giang</option>
+                                <option <a data-vi="Mỹ Tho" value="180097">Mỹ Tho</option>
+                                <option <a data-vi="Tiền An" value="179896">Tiền An</option>
+                                <option <a data-vi="Văn Giang" value="179827">Văn Giang</option>
+                                <option <a data-vi="Bắc Ninh" value="179894">Bắc Ninh</option>
+                                <option <a data-vi="Hưng Yên" value="179823">Hưng Yên</option>
+                                <option <a data-vi="Biên Hòa" value="171886">Biên Hòa</option>
+                                <option <a data-vi="Hưng Yên" value="170211">Hưng Yên</option>
+                                <option <a data-vi="Long Xuyên" value="167469">Long Xuyên</option>
+                                <option <a data-vi="Hải Phòng" value="166134">Hải Phòng</option>
+                                <option <a data-vi="Cần Thơ" value="121115">Cần Thơ</option>
+                                <option <a data-vi="Hạ Long" value="111536">Hạ Long</option>
+                                <option <a data-vi="Bình Dương" value="8021">Bình Dương</option>
+                                <option <a data-vi="Hà Nội" value="304">Hà Nội</option>
+                                <option <a data-vi="Hồ Chí Minh" value="329">Hồ Chí Minh</option>
+                                <option <a data-vi="Vũng Tàu" value="15762">Vũng Tàu</option>
+                            </select>
+                        </div>
+                        <div class="sel-dropdistrict">
+                            <select id="drop-district-home">
+                                <option data-id="0" value="">Quận huyện</option>
+                            </select>
+                        </div>
+    
+                        <div class="sel-dropservices">
+                            <select id="drop-services-home">
+                                <option data-id="0" value="">Dịch vụ tiện ích</option>
+                                    <option data-vi="Vũng Tàu" value="95124">Thanh Toán Bằng Thẻ</option>
+                                    <option data-vi="Vũng Tàu" value="63913">Thanh Toán Hóa Đơn</option>
+                                    <option data-vi="Vũng Tàu" value="4802">Thẻ Cào</br> Điện Thoại</option>
+                                    <option data-vi="Vũng Tàu" value="4805">Thẻ Game</option>
+                                    <option data-vi="Vũng Tàu" value="4784">ATM</option>
+                            </select>
+                        </div>
+    
+                        <div class="sel-dropfacilities">
+                            <select id="drop-facilities-home">
+                                <option data-id="0" value="">Dịch vụ khác</option>
+                                    <option data-vi="Vũng Tàu" value="5327">Cửa hàng có ghế ngồi</option>
+                                    <option data-vi="Vũng Tàu" value="5325">Thức Ăn &#038; Thức Uống</option>
+                                </select>
+                        </div>
+                    </div>
+    
+                    <div class="row2">
+                        <div class="typecol-xs-6">
+                            <input type="text" name="" id="street_name" placeholder="Nhập tên đường">
+                            <span></span>
+                        </div>
+    
+                        <div class="col-xs-6">
+                            <div>
+                                <a href="" class="btn-search" onclick="search_store('vi')">
+                                    <span>Tìm cửa hàng</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                      
+    <section class="box">
+        <div>
+            <div><h2>ĐĂNG KÝ NHẬN THÔNG TIN</h2></div>
+            <div><input type="email" placeholder="Email">
+            <button type="submit">Gửi</button></div>
+        </ul>          
+        </div>
+    </section>
+    <br>
+    <footer>
+        <div class="row-box1" >    
+            <div class="col-sm-2 p-3"><a href="../trangchu.html"><img style="width: 80px;" src="../image/logo.png" alt=""></a></div>   
+            <div class="col-sm-2 p-3"><a href="../html/hethong.html">HỆ THỐNG SMart</a></div>
+            <div class="col-sm-2 p-3"><a href="../html/uudai.html">ƯU ĐÃI ĐẶC BIỆT</a></div>
+            <div class="col-sm-2 p-3"><a href="../html/thucan&thucuong.html">THỨC ĂN & THỨC UỐNG</a></div>
+            <div class="col-sm-2 p-3"><a href="../html/sanphamdichvu.html">SẢN PHẨM & DỊCH VỤ</a></a></div>
+        </div>
+        <hr>
+        <ul class="box2">
+            <li><a href="../html/gioithieu.html">Giới Thiệu |</a></li>   
+            <li><a href="../html/cohoinghenghiep.html">Cơ Hội Nghề Nghiệp |</a></li>
+            <li><a href="../html/tintuc&sukien.html">Tin Tức & Sự Kiện |</a></li>
+            <li><a href="../html/lienhe.html">Liên Hệ |</a></li>
+            <li><a href="../html/chinhsachbaomat.html">Chính Sách Bảo Mật |</a></li>        
+            <li><a href="../html/hoadondo.html">Hóa Đơn Đỏ </a></li>
+        </ul>    
+        <hr>
+
+    <div class="box3">
+        <div class="contact-info">
+            <p>SMART Vietnam - Chuỗi siêu thị mini - Mở cửa 24/7</p>
+            <p>Tel: +84 999.999.999</p>
+            <p>Phòng Chăm sóc khách hàng: 1900.1588</p>
+            <p>Email: smart.com.vn</p>
+        </div>
+        <div class="box4">
+            <p>CÔNG TY TNHH VÒNG TRÒN ĐỎ - Giấy CNĐKDN: 0306182043</p>
+            <p>Ngày cấp: 07/08/2005. Nơi cấp: Sở Kế Hoạch - Đầu Tư Tp. Hà Nội</p>
+            <p>Địa chỉ: Số 3 Phố Cầu Giấy, Phường Láng Thượng, Quận Đống Đa, Thành Phố Hà Nội.</p>
+        </div>
+    </div>
+    </footer>
+    
+    <script src="../javascript/hethong.js"></script>
+
+</body>
+</html>

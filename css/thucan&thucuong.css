@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px 0;
+}
+
+header ul {
+    justify-content: flex-end; 
+    padding-right: 20px;
+}
+
+header ul li {
+    font-size: 12px;
+    margin-left: 2px; 
+}
+
+nav {
+    position: fixed; 
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: red;
+    transition: top 0.2s ease;
+}
+
+
+nav div{
+    background-color: rgb(135, 93, 16);
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+nav div div:nth-child(2){   
+    position: relative;
+}
+nav div div:nth-child(2) input {
+        width: 100%;
+        padding: 10px 40px 10px 10px; 
+        font-size: 15px;
+        border-radius: 10px;
+    }
+nav div div:nth-child(2) i {
+        position: absolute;
+        font-size: 25px;
+        right: 20px;
+        color: #888; 
+        line-height: 45px;
+        cursor: pointer;
+}
+
+.menu {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 250px;
+    position:absolute;
+    display: none;
+    box-shadow: 2px 3px 5px red;
+}
+
+.menu > li > a {
+    display: block;
+    line-height: 20px;
+    font-variant: small-caps;
+    padding: 10px 15px;
+    color: red;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    color: black;
+    font-weight: bold;
+}
+nav div div:hover .menu {
+    display: block;
+}
+
+nav div{
+    background-color: red;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.row a {
+    text-decoration: none; 
+    color: white;
+}
+.row a:hover {
+    color: white; 
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+    height: 60vh;
+    padding-top: 120px;
+}
+
+
+.banner img {
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+    object-fit: cover;
+}
+
+
+.banner-text {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.menu-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.menu-section h2 {
+    color: red;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.menu-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    width: 468px;
+    text-align: left;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    color: #ff3300;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.menu-item a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-item a:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.explore-more {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+
+.explore-more h2 {
+    font-size: 32px;
+    color: red;
+    font-weight: bold;
+}
+
+.explore-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.explore-item {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: black;
+}
+
+.explore-uu-dai img, .explore-san-pham img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.explore-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.explore-item p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.explore-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    background-color: transparent;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.explore-uu-dai .explore-btn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.explore-san-pham .explore-btn:hover {
+    background-color: #a4001d;
+    color: white;
+}
+
+.row-box1 {
+    display: flex;
+}
+
+.row-box1 a{
+    text-decoration: none;
+    color: red;
+}
+
+.row a {
+    text-decoration: none; 
+    color: white;  
+}
+.row a:hover {
+    color: white; 
+    background-color: red; 
+}
+
+.box { 
+    background-color: red;
+    text-align: center;
+    padding:3px;
+}
+
+footer{
+    width: 1000px;
+    margin: auto;
+}
+.box1{
+    color: red;
+}
+.box2 a{
+    text-decoration: none;
+    padding: 3px ;
+    color: black;
+}
+.box3{
+        
+    font-size: 15px;
+    display: flex;
+}
+.box4{
+    margin-left:  100px; 
+}  
+
+footer ul{
+    display: flex;
+    list-style: none;
+}

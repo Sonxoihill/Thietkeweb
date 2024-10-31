@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+    <link rel="stylesheet" href="../css/thucan.css"> 
+    <link rel="shortcut icon" href="../image/logo.png" type="image/x-icon"/>
+    <title>THUC UONG</title>
+</head>
+<body>
+    <header>
+        <ul class="box2">
+            <li><a href="../html/gioithieu.html">Giới Thiệu |</a></li>   
+            <li><a href="../html/cohoinghenghiep.html">Cơ Hội Nghề Nghiệp |</a></li>
+            <li><a href="../html/tintuc&sukien.html">Tin Tức & Sự Kiện |</a></li>
+            <li><a href="../html/lienhe.html">Liên Hệ |</a></li>
+            <li><a href="../html/chinhsachbaomat.html">Chính Sách Bảo Mật |</a></li>        
+            <li><a href="../html/hoadondo.html">Hóa Đơn Đỏ </a></li>
+        </ul> 
+      </header>
+      <nav>
+          <div class="row">    
+              <div class="col-sm-1 p-3"><a href="../trangchu.html"><img style="width: 90px;" src="../image/logo.png" alt=""></a></div> 
+              <div class="col-sm-3 p-3"><input type="text"  placeholder="Tìm kiếm...."><i class='bx bx-search'></i></div> 
+              <div class="col-sm-2 p-3"><a href="../html/hethong.html"><i class='bx bx-store'></i>Hệ Thống S Mart</a></div>
+              <div class="col-sm-1 p-3"><a href="../html/uudai.html"><i class='bx bx-gift'></i>Ưu Đãi</a></div>
+              <div class="col-sm-2 p-3">
+                <a href="../html/thucan&thucuong.html"><i class='bx bx-dish'></i>Thức Ăn & Thức Uống</a>
+                <ul class="menu">
+                    <li><a href="../html/thucan.html">Thức ăn</a></li>
+                    <li><a href="../html/douong.html">Thức uống</a></li>
+                </ul>
+            </div>
+              <div class="col-sm-2 p-3">
+              <a href="../html/sanphamdichvu.html"><i class='bx bx-add-to-queue'></i>Sản Phẩm & Dịch Vụ</a>
+              <ul class="menu">
+                <li><a href="../html/sanpham.html">Sản Phẩm</a></li>
+                <li><a href="../html/dichvu.html">Dịch Vụ</a></li>
+            </ul>
+            </div>
+          </div>
+      </nav>
+    <section class="banner">
+        <img src="../image/nenthucuong.webp" alt="Thực phẩm S Mart">
+        <div class="banner-text">
+        </div>
+    </section>
+
+    <section class="category">
+        <h2>Danh Mục Sản Phẩm</h2>
+        <div class="category-list">
+             <div class="category-item" data-category="all">
+                <p>Tất Cả Thức Uống</p>
+            </div>
+            <div class="category-item" data-category="Cà phê Việt Nam">
+                <p>Cà phê Việt Nam</p>
+            </div>
+            <div class="category-item" data-category="Sản phẩm Nestlé">
+                <p>Sản phẩm Nestlé</p>
+            </div>
+            <div class="category-item" data-category="Thức uống pha chế">
+                <p>Thức uống pha chế</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <h2>Sản Phẩm Nổi Bật</h2>
+        <div class="product-list">
+            <div class="product-item" data-category="Cà phê Việt Nam" onclick="toggleDescription(this)">
+                <img src="../image/suatuoi.webp" alt="Sữa Tươi Cà Phê">
+                <h3>Sữa Tươi Cà Phê</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Sữa Tươi Cà Phê:</span>Người Việt Nam uống cà phê như một văn hóa. Một ly cà phê truyền thống đậm chất Việt Nam sẽ luôn luôn sẵn sàng cho bạn tại S Mart vào bất cứ lúc nào trong ngày. </p>
+            </div>
+            <div class="product-item" data-category="Cà phê Việt Nam" onclick="toggleDescription(this)">
+                <img src="../image/phinsua.webp" alt="Cà Phê Phin Sữa Đá">
+                <h3>Cà Phê Phin Sữa Đá</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Cà Phê Phin Sữa Đá:</span> Người Việt Nam uống cà phê như một văn hóa. Một ly cà phê truyền thống đậm chất Việt Nam sẽ luôn luôn sẵn sàng cho bạn tại S Mart vào bất cứ lúc nào trong ngày.</p>
+            </div>
+            <div class="product-item" data-category="Cà phê Việt Nam" onclick="toggleDescription(this)">
+                <img src="../image/phinden.webp" alt="Cà Phê Phin Đen Đá">
+                <h3>Cà Phê Phin Đen Đá</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Cà Phê Phin Đen Đá:</span> Người Việt Nam uống cà phê như một văn hóa. Một ly cà phê truyền thống đậm chất Việt Nam sẽ luôn luôn sẵn sàng cho bạn tại S Mart vào bất cứ lúc nào trong ngày. </p>
+            </div>
+            <div class="product-item" data-category="Thức uống pha chế" onclick="toggleDescription(this)">
+                <img src="../image/thaixanh.webp" alt="Trà Sữa Thái (Xanh)">
+                <h3>Trà Sữa Thái (Xanh)</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Trà Sữa Thái (Xanh):</span> Trà Sữa Thái là một trong những thức uống được giới trẻ ưa chuộng. Với Trà Sữa Thái Xanh hay Đỏ, bạn có thể tận hưởng được hương vị tươi mát, đậm chất ngọt ngào đặc trưng của trà sữa.</p>
+            </div>
+            <div class="product-item" data-category="Thức uống pha chế" onclick="toggleDescription(this)">
+                <img src="../image/thaido.webp" alt="Trà Sữa Thái (Đỏ)">
+                <h3>Trà Sữa Thái (Đỏ)</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Trà Sữa Thái (Đỏ):</span> Trà Sữa Thái là một trong những thức uống được giới trẻ ưa chuộng. Với Trà Sữa Thái Xanh hay Đỏ, bạn có thể tận hưởng được hương vị tươi mát, đậm chất ngọt ngào đặc trưng của trà sữa.</p>
+            </div>
+            <div class="product-item" data-category="Sản phẩm Nestlé" onclick="toggleDescription(this)">
+                <img src="../image/milo.webp" alt="Milo">
+                <h3>Milo</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Milo:</span> Tại S Mart, những sản phẩm quen thuộc từ nhãn hàng Nestlé được pha chế theo công thức riêng mang lại cảm giác sảng khoái và tươi mát hơn.</p>
+            </div>
+            <div class="product-item" data-category="Thức uống pha chế" onclick="toggleDescription(this)">
+                <img src="../image/trachanh.webp" alt="Trà Chanh">
+                <h3>Trà Chanh</h3>
+                <p class="description" style="display: none;"><span style="color: orange; font-weight: bold;">Trà Chanh:</span> Trà Chanh được pha chế ngay tại cửa hàng với hương vị thơm ngon, mát lạnh.</p>
+            </div>
+        </div>
+    </section>
+    <section class="explore-more">
+        <h2>KHÁM PHÁ THÊM</h2>
+        <div class="explore-container">
+            <div class="explore-item explore-uu-dai">
+                <img src="../image/timduong.webp" alt="Tìm S mart gần nhất">
+                <h3>TÌm S mart gần nhất</h3>
+                <p>Với hơn 400 cửa hàng tại Tp.Hồ Chí Minh, Bình Dương, Vũng Tàu, Cần Thơ, Hạ Long, Hà Nội, Hải Phòng, Long Xuyên, Biên Hòa và Nha Trang bạn sẽ dễ dàng tìm được cửa hàng S mart gần nhất.</p>
+                <a href="#" class="explore-btn">TÌM CỬA HÀNG <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+            <div class="explore-item explore-san-pham">
+                <img src="../image/sanphamdichvu.webp" alt="Sản Phẩm & Dịch Vụ">
+                <h3>SẢN PHẨM & DỊCH VỤ</h3>
+                <p>Cảm nhận sự tiện lợi và chất lượng về dịch vụ. Trải nghiệm sự phong phú về sản phẩm và dịch vụ khi mua sắm tại S mart.</p>
+                <a href="../html/sanphamdichvu.html" class="explore-btn">KHÁM PHÁ NGAY <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="box">
+        <div>
+            <div><h2>ĐĂNG KÝ NHẬN THÔNG TIN</h2></div>
+            <div><input type="email" placeholder="Email">
+              <button type="submit">Gửi</button></div>
+          </ul>          
+        </div>
+    </section>
+    <br>
+    <footer>
+        <div class="row-box1" >    
+            <div class="col-sm-2 p-3"><a href="../trangchu.html"><img style="width: 80px;" src="../image/logo.png" alt=""></a></div>   
+            <div class="col-sm-2 p-3"><a href="../html/hethong.html">HỆ THỐNG SMart</a></div>
+            <div class="col-sm-2 p-3"><a href="../html/uudai.html">ƯU ĐÃI ĐẶC BIỆT</a></div>
+            <div class="col-sm-2 p-3"><a href="../html/thucan&thucuong.html">THỨC ĂN & THỨC UỐNG</a></div>
+            <div class="col-sm-2 p-3"><a href="../html/sanphamdichvu.html">SẢN PHẨM & DỊCH VỤ</a></a></div>
+        </div>
+        <hr>
+        <ul class="box2">
+            <li><a href="../html/gioithieu.html">Giới Thiệu |</a></li>   
+            <li><a href="../html/cohoinghenghiep.html">Cơ Hội Nghề Nghiệp |</a></li>
+            <li><a href="../html/tintuc&sukien.html">Tin Tức & Sự Kiện |</a></li>
+            <li><a href="../html/lienhe.html">Liên Hệ |</a></li>
+            <li><a href="../html/chinhsachbaomat.html">Chính Sách Bảo Mật |</a></li>        
+            <li><a href="../html/hoadondo.html">Hóa Đơn Đỏ </a></li>
+        </ul>    
+        <hr>
+
+    <div class="box3">
+        <div class="contact-info">
+            <p>SMART Vietnam - Chuỗi siêu thị mini - Mở cửa 24/7</p>
+            <p>Tel: +84 999.999.999</p>
+            <p>Phòng Chăm sóc khách hàng: 1900.1588</p>
+            <p>Email: smart.com.vn</p>
+        </div>
+        <div class="box4">
+            <p>CÔNG TY TNHH VÒNG TRÒN ĐỎ - Giấy CNĐKDN: 0306182043</p>
+            <p>Ngày cấp: 07/08/2005. Nơi cấp: Sở Kế Hoạch - Đầu Tư Tp. Hà Nội</p>
+            <p>Địa chỉ: Số 3 Phố Cầu Giấy, Phường Láng Thượng, Quận Đống Đa, Thành Phố Hà Nội.</p>
+        </div>
+    </div>
+    </footer>
+    
+    <script src="../javascript/douong.js"></script>
+</body>
+</html>

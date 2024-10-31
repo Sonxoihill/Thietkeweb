@@ -1,0 +1,255 @@
+ul {
+    list-style: none;
+    display: flex;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px 0;
+}
+
+header ul {
+    justify-content: flex-end; 
+    padding-right: 20px;
+}
+
+header ul li {
+    font-size: 12px;
+    margin-left: 2px; 
+}
+
+nav {
+    position: fixed; 
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: orange;
+    transition: top 0.2s ease;
+}
+
+
+nav div{
+    background-color: red;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+nav div div:nth-child(2){   
+    position: relative;
+}
+nav div div:nth-child(2) input {
+        width: 100%;
+        padding: 10px 40px 10px 10px; 
+        font-size: 15px;
+        border-radius: 10px;
+    }
+nav div div:nth-child(2) i {
+        position: absolute;
+        font-size: 25px;
+        right: 20px;
+        color: #888; 
+        line-height: 45px;
+        cursor: pointer;
+}
+
+.menu {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 250px;
+    position:absolute;
+    display: none;
+    box-shadow: 2px 3px 5px red;
+}
+
+.menu > li > a {
+    display: block;
+    line-height: 20px;
+    font-variant: small-caps;
+    padding: 10px 15px;
+    color: red;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    color: black;
+    font-weight: bold;
+}
+nav div div:hover .menu {
+    display: block;
+}
+
+.breadcrumb{
+    border-bottom: 1px solid #333;
+    width: 80%;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.breadcrumb div{
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 0;
+}
+.inner a{
+    text-decoration: none;
+    color: dimgray;
+}
+.inner a:hover{
+    color: coral;
+}
+.active{
+    color: coral;
+    font-weight: bold;
+}
+.inner h3{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(215, 20, 20);
+}
+
+.breadcrumb{
+    border-bottom: 1px solid #333;
+    width: 80%;
+    margin-left: 280px;
+}
+
+.breadcrumb div{
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 0;
+    margin-top: 50px;
+}
+.inner a{
+    text-decoration: none;
+    color: dimgray;
+}
+.inner a:hover{
+    color: coral;
+}
+.active{
+    color: coral;
+    font-weight: bold;
+}
+.inner h3{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(215, 20, 20);
+}
+.kn{
+    text-align: center;
+}
+.kn1{
+    text-align: center;
+    width:70%;
+    margin-left: 280px;
+}
+.kn1 h3{
+    color: rgb(215, 20, 20);
+    font-weight: bold;
+}
+.kn2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.kn3{
+    font-size: 18px;
+}
+.mix{
+    text-align: center;
+    margin-top: 20px;
+}
+.mix2{
+    width: 100%;
+    max-width: 70%;
+    transition: transform 0.5s ease-in-out;
+    padding: 20px;
+    margin-left: 100px;
+}
+.mix2:hover{
+    transform: scale(1.1);
+}
+nav div div:nth-child(2){   
+    position: relative;
+}
+nav div div:nth-child(2) input {
+        width: 100%;
+        padding: 10px 40px 10px 10px; 
+        font-size: 15px;
+        border-radius: 10px;
+    }
+nav div div:nth-child(2) i {
+        position: absolute;
+        font-size: 25px;
+        right: 20px;
+        color: #888; 
+        line-height: 45px;
+        cursor: pointer;
+}
+
+nav {
+    position: fixed;
+    top: 0;         
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: orange;
+    transition: top 0.3s ease;
+}
+
+
+.scrolled-up nav {
+    top: 50px; 
+}
+section { 
+    background-color: orange;
+    text-align: center;
+    padding:3px;
+    margin-top: 30px;
+}
+.menu1 a {
+    text-decoration: none; 
+    color: white;  
+}
+.menu1 a:hover{
+    color: white;  
+}
+.box { 
+    background-color: red;
+    text-align: center;
+    padding:3px;
+    margin-top: 85px;
+}
+
+footer{
+    width: 1000px;
+    margin: auto;
+}
+.box1 a{
+    text-decoration: none;
+    padding: 3px ;
+    color: black;
+}
+.box2{
+        
+    font-size: 15px;
+    display: flex;
+}
+.box3{
+    margin-left:  100px; 
+}  
+footer div.row a{
+    text-decoration: none;
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
