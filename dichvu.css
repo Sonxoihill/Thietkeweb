@@ -7,7 +7,6 @@ nav div
     color: white;
 }
 
-
 .vertical-list {
     width: 100%;
 }
@@ -86,19 +85,19 @@ nav div
     display: block;
 }
 
-
+  
 ul {
     list-style: none;
     display: flex;
 }
 
 header {
-    position: fixed;
-    top: 0;
+    position: fixed;  
+    top: 0;  
     left: 0;
     right: 0;
-    background-color: white;
-    padding: 10px 0;
+    background-color: white;  
+    padding: 10px 0;  
 }
 
 header ul {
@@ -113,10 +112,10 @@ header ul li {
 
 nav {
     position: fixed; 
-    top: 40px;
+    top: 40px;  
     left: 0;
     right: 0;
-    z-index: 999;
+    z-index: 999;  
     background-color: orange;
     transition: top 0.2s ease;
 }
@@ -159,24 +158,24 @@ nav div div:nth-child(2) i {
 }
 
 .menu > li > a {
-    display: block;
-    line-height: 20px;
-    font-variant: small-caps;
-    padding: 10px 15px;
-    color: red;
-    text-decoration: none;
+    display: block;  
+    line-height: 20px;  
+    font-variant: small-caps; 
+    padding: 10px 15px;  
+    color: red;  
+    text-decoration: none;  
 }
 
 .menu > li > a:hover {
-    color: black;
-    font-weight: bold;
+    color: black; 
+    font-weight: bold;  
 }
 nav div div:hover .menu {
-    display: block;
+    display: block;  
 }
 
 
-
+ 
 .menu1 a {
     text-decoration: none; 
     color: white;  
@@ -194,13 +193,6 @@ footer{
     width: 1000px;
     margin: auto;
 }
-
-.box11 a{
-    text-decoration: none;
-    padding: 3px ;
-    color: black;
-}
-
 .box1 a{
     text-decoration: none;
     padding: 3px ;
@@ -217,24 +209,10 @@ footer{
 footer div.row a{
     text-decoration: none;
     color: red;
-    font-family:Verdana, Verdana, Geneva, sans-serif ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 footer ul{
     display: flex;
     list-style: none;
 }
-
-
-@media(max-width: 576px){
-    .box2, .box3{
-        flex-direction: column;
-        font-size: 10px;
-        margin-left: 0;
-    }
-
-    .box11{
-        flex-direction: column;
-        margin-left: 0;
-        font-size: 18px;
-    }
-}
+ 

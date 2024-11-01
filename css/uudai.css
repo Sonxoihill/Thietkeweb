@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -86,6 +92,55 @@ nav div div:hover .menu {
     display: block;
 }
 
+article{
+    margin-top: 150px;
+}
+
+.menu1 a {
+    text-decoration: none; 
+    color: white;  
+}
+.menu1 a:hover{
+    color: white;  
+}
+.box { 
+    background-color: red;
+    text-align: center;
+    padding:3px;
+}
+
+footer{
+    width: 1000px;
+    margin: auto;
+}
+
+.box11 a{
+    text-decoration: none;
+    padding: 3px ;
+    color: black;
+}
+.box1 a{
+    text-decoration: none;
+    padding: 3px ;
+    color: black;
+}
+.box2{
+        
+    font-size: 15px;
+    display: flex;
+}
+.box3{
+    margin-left:  100px; 
+}  
+footer div.row a{
+    text-decoration: none;
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
 
 .breadcrumb{
     border-bottom: 1px solid #333;
@@ -197,46 +252,7 @@ section div {
     text-align: center;
     padding:3px;
 }
-.menu1 a {
-    text-decoration: none; 
-    color: white;  
-}
-.menu1 a:hover{
-    color: white;  
-}
-.box { 
-    background-color: red;
-    text-align: center;
-    padding:3px;
-    margin-top: 85px;
-}
 
-footer{
-    width: 1000px;
-    margin: auto;
-}
-.box1 a{
-    text-decoration: none;
-    padding: 3px ;
-    color: black;
-}
-.box2{
-        
-    font-size: 15px;
-    display: flex;
-}
-.box3{
-    margin-left:  100px; 
-}  
-footer div.row a{
-    text-decoration: none;
-    color: red;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-}
-footer ul{
-    display: flex;
-    list-style: none;
-}
 
 nav {
     position: fixed;
@@ -251,4 +267,88 @@ nav {
 
 .scrolled-up nav {
     top: 50px; 
+}
+
+
+@media (max-width: 576px) {
+    .breadcrumb {
+        margin-left: 10px;
+        width: 95%;
+        margin-top: 450px;
+    }
+
+    .inner h3 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .p {
+        width: 90%;
+        font-size: 14px;
+        margin: 10px auto;
+    }
+
+    .km {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    .km1 h3 {
+        font-size: 18px;
+    }
+
+    .km2, .km3 {
+        font-size: 14px;
+    }
+
+    .ibe, .diachi {
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    header ul {
+        justify-content: center;
+        padding-right: 0;
+        flex-wrap: wrap;
+    }
+
+    header ul li {
+        font-size: 10px;
+        margin: 0 2px;
+    }
+
+    nav .menu1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav .menu1 a {
+        font-size: 14px;
+    }
+
+    footer .row {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    footer .row a {
+        font-size: 15px;
+        margin-left: 0;
+    }
+
+    .box2, .box3 {
+        font-size: 14px;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .box11 {
+        flex-direction: column;
+        font-size: 15px;
+        margin-left: 0;
+    }
 }

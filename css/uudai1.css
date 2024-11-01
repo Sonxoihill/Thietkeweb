@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -84,6 +90,56 @@ nav div div:nth-child(2) i {
 }
 nav div div:hover .menu {
     display: block;
+}
+
+article{
+    margin-top: 150px;
+}
+
+.menu1 a {
+    text-decoration: none; 
+    color: white;  
+}
+.menu1 a:hover{
+    color: white;  
+}
+.box { 
+    background-color: red;
+    text-align: center;
+    padding:3px;
+}
+
+footer{
+    width: 1000px;
+    margin: auto;
+}
+
+.box11 a{
+    text-decoration: none;
+    padding: 3px ;
+    color: black;
+}
+.box1 a{
+    text-decoration: none;
+    padding: 3px ;
+    color: black;
+}
+.box2{
+        
+    font-size: 15px;
+    display: flex;
+}
+.box3{
+    margin-left:  100px; 
+}  
+footer div.row a{
+    text-decoration: none;
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+footer ul{
+    display: flex;
+    list-style: none;
 }
 
 .breadcrumb{
@@ -175,23 +231,7 @@ nav div div:hover .menu {
 .mix2:hover{
     transform: scale(1.1);
 }
-nav div div:nth-child(2){   
-    position: relative;
-}
-nav div div:nth-child(2) input {
-        width: 100%;
-        padding: 10px 40px 10px 10px; 
-        font-size: 15px;
-        border-radius: 10px;
-    }
-nav div div:nth-child(2) i {
-        position: absolute;
-        font-size: 25px;
-        right: 20px;
-        color: #888; 
-        line-height: 45px;
-        cursor: pointer;
-}
+
 
 nav {
     position: fixed;
@@ -213,43 +253,29 @@ section {
     padding:3px;
     margin-top: 30px;
 }
-.menu1 a {
-    text-decoration: none; 
-    color: white;  
-}
-.menu1 a:hover{
-    color: white;  
-}
-.box { 
-    background-color: red;
-    text-align: center;
-    padding:3px;
-    margin-top: 85px;
-}
 
-footer{
-    width: 1000px;
-    margin: auto;
-}
-.box1 a{
-    text-decoration: none;
-    padding: 3px ;
-    color: black;
-}
-.box2{
-        
-    font-size: 15px;
-    display: flex;
-}
-.box3{
-    margin-left:  100px; 
-}  
-footer div.row a{
-    text-decoration: none;
-    color: red;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-}
-footer ul{
-    display: flex;
-    list-style: none;
+@media(max-width: 576px){
+    .box2, .box3{
+        flex-direction: column;
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .box11{
+        flex-direction: column;
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .breadcrumb{
+        margin-top: 500px;
+        margin-left: 0;
+    }
+
+    .kn1{
+        margin-left: 0;
+    }
+    .mix img{
+        margin-left: 0;
+    }
 }

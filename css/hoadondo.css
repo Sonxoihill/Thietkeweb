@@ -40,7 +40,7 @@ nav {
 
 
 nav div{
-    background-color: orange;
+    background-color: red;
     align-items: center;
     font-size: 20px;
     text-align: center;
@@ -91,31 +91,27 @@ nav div div:nth-child(2) i {
 nav div div:hover .menu {
     display: block;
 }
-.box2 a{
+
+article{
+    margin-top: 150px;
+}
+
+.menu1 a {
+    text-decoration: none; 
+    color: white;  
+}
+.menu1 a:hover{
+    color: white;  
+}
+.box { 
+    background-color: red;
+    text-align: center;
+    padding:3px;
+}
+.box1 a{
     text-decoration: none;
     padding: 3px ;
     color: black;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-nav div {
-    background-color: red;
-    align-items: center;
-    font-size: 20px;
-    text-align: center;
-    color: white;
-}
-
-.row a {
-    text-decoration: none;
-    color: white;
-}
-
-.row a:hover {
-    color: white;
 }
 
 .invoice-form {
@@ -169,4 +165,10 @@ button{
     color: white;
     background-color: blue;
     border-radius: 5px;
+}
+
+@media(max-width: 576px){
+   .invoice-form{
+    margin-top: 500px;
+   }
 }

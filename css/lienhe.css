@@ -609,6 +609,13 @@ footer{
     width: 1000px;
     margin: auto;
 }
+
+.box11 a{
+    text-decoration: none;
+    padding: 3px ;
+    color: black;
+}
+
 .box1 a{
     text-decoration: none;
     padding: 3px ;
@@ -630,4 +637,28 @@ footer div.row a{
 footer ul{
     display: flex;
     list-style: none;
+}
+
+@media(max-width: 576px){
+    .box2, .box3{
+        flex-direction: column;
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .box11{
+        flex-direction: column;
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .contact-blk-1{
+        padding-top: 400px;
+       margin-bottom: 70px;
+
+    }
+    .my-map img{
+        height: 200px;
+        width: 300px;
+    };
 }

@@ -105,6 +105,13 @@ header ul {
     margin: auto;
     
     }
+
+    .box11 a{
+        text-decoration: none;
+        padding: 3px ;
+        color: black;
+    }
+
     .box1 a{
     text-decoration: none;
     padding: 3px ;
@@ -231,4 +238,18 @@ p {
 .explore-san-pham .explore-btn:hover {
     background-color: #a4001d;
     color: white;
+}
+
+@media(max-width: 576px){
+    .box2, .box3{
+        flex-direction: column;
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .box11{
+        flex-direction: column;
+        margin-left: 0;
+        font-size: 18px;
+    }
 }

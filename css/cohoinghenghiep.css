@@ -172,3 +172,127 @@
     margin-right: 8px;
 }
 
+@media (max-width: 576px) {
+    .menu {
+        height: 50px;
+    }
+    
+    .menu img {
+        height: 30px;
+        margin-left: 10px;
+    }
+    
+    .menu ul {
+        gap: 10px;
+    }
+    
+    .menu ul li a {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    #trang-chu {
+        height: 400px;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    .section h2 {
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+
+    .section-content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .content-cell h3 {
+        font-size: 18px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .content-cell p {
+        font-size: 14px;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    .image-cell img {
+        width: 50px;
+        margin-top: 20px;
+    }
+
+    .buton button {
+        width: 150px;
+        height: 40px;
+    }
+
+    .buton2 {
+        margin-left: 0;
+    }
+
+    .tintuc {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .tintuc div {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .content-tintuc img {
+        width: 100%;
+    }
+
+    .content-tintuc a {
+        font-size: 14px;
+    }
+
+    .content-tintuc p {
+        font-size: 12px;
+    }
+
+    .lh {
+        height: auto;
+        padding: 20px;
+    }
+
+    .lh img {
+        height: 60px;
+        padding-top: 20px;
+        margin-left: 0;
+    }
+
+    .lh ul li {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .content-vp, .content-lk, .content-xh {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .content-xh a {
+        font-size: 14px;
+    }
+
+    .content-xh a img {
+        width: 20px;
+        height: 20px;
+    }
+}
