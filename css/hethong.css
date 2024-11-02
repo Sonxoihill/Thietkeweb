@@ -113,7 +113,9 @@ footer{
     width: 1000px;
     margin: auto;
 }
-
+.box11{
+    margin-left: 350px;
+}
 .box11 a{
     text-decoration: none;
     padding: 3px ;
@@ -128,9 +130,10 @@ footer{
         
     font-size: 15px;
     display: flex;
+    margin-left: 300px;
 }
 .box3{
-    margin-left:  100px; 
+    margin-left:  210px; 
 }  
 footer div.row a{
     text-decoration: none;
@@ -141,8 +144,6 @@ footer ul{
     display: flex;
     list-style: none;
 }
-
-
 
 .store-page{
     margin-top: 150px;
@@ -219,12 +220,6 @@ footer ul{
     font-weight: bold;
 }
 
-
-
-
-
-
-
 section{
     background-color: orange;
     width: 100%;
@@ -233,72 +228,7 @@ section div {
     text-align: center;
     padding:3px;
 }
-.row-box1 {
-    display: flex;
-}
 
-.row-box1 a{
-    text-decoration: none;
-    color: red;
-}
-
-.row a {
-    text-decoration: none; 
-    color: white;  
-}
-.row a:hover {
-    color: white; 
-    background-color: red; 
-}
-
-.box { 
-    background-color: red;
-    text-align: center;
-    padding:3px;
-    margin-top: 60px;
-}
-
-footer{
-    width: 1000px;
-    margin: auto;
-}
-.box1{
-    color: red;
-}
-
-.box11 a{
-    text-decoration: none;
-    padding: 3px ;
-    color: black;
-}
-.box2 a{
-    text-decoration: none;
-    padding: 3px ;
-    color: black;
-}
-.box3{
-        
-    font-size: 15px;
-    display: flex;
-}
-.box4{
-    margin-left:  100px; 
-}  
-
-footer ul{
-    display: flex;
-    list-style: none;
-}
-
-nav {
-    position: fixed;
-    top: 0;         
-    left: 0;
-    right: 0;
-    z-index: 999;
-    background-color: orange;
-    transition: top 0.3s ease;
-}
 
 
 .scrolled-up nav {
